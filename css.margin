@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Margin</title>
+    <style>
+        h1 {
+            margin: 0 0 50px;
+        }
+
+        #first {
+            border: 2px solid black;
+            margin-bottom: 30px;
+        }
+
+        #second {
+            border: 2px solid red;
+            margin: 10px 200px 10px 300px;
+        }
+
+        #third {
+            width: 500px;
+            border: 2px solid green;
+            margin: 10px auto;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>main : CSS Margin</h1>
+
+    <div id="first">
+        This is the first div with a bottom margin of 30px.
+    </div>
+
+    <div id="second">
+        This is the second div with margin: 10px top, 200px right, 10px bottom, 300px left.
+    </div>
+
+    <div id="third">
+        This is the third div with centered alignment and a width of 500px.
+    </div>
+</body>
+</html>
